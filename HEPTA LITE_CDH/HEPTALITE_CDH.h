@@ -3,10 +3,10 @@
 #include "SDFileSystem.h"
 #include "mbed.h"
 
-class HEPTA_CDH : public SDFileSystem{
+class HEPTALITE_CDH : public SDFileSystem{
 public:
     
-    HEPTA_CDH(PinName mosi, PinName miso, PinName sclk, PinName cs, const char* name);
+    HEPTALITE_CDH(PinName mosi, PinName miso, PinName sclk, PinName cs, const char* name);
   
 private:  
 };
